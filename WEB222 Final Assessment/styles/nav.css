@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.header-container
+{
+    font-family: Silkscreen, Arial, Helvetica, sans-serif;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   color:white;
+  background-color: #404EED;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.navbar a{
+    text-decoration: none;
+color: white;
+}
+.navigation
+{
+    
+    padding-right: 8px;
+}
+.navigation li{
+    
+    display: inline-block;
+    list-style: none;
+}
+
+.navigation a {
+    font-family: Work Sans;
+    font-weight: 500;
+
+    font-weight: 500;
+    padding-right: 8px;
+    padding-left: 5px;
+}
+
+.logo{
+    padding-left: 30px;
+  font-size: 0.6em;
+}
+.logo h1{
+    color: hsl(0, 0%, 98%);
+    font-weight: 300;
+}
+.logo span
+{
+    font-weight: 700;
+    color:#23272A;
+}
+
+.navigation a:hover{
+    color:#2c2f33;
+    cursor: pointer;
+    
+}
+
+footer{
+    background-color: #404EED;
+    text-align: center;
+    font-family: Work Sans;
+}
+footer h3
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+footer img{
+    width: 70px;
+    padding:10px;
+   
+}
+
+footer div a{
+   font-weight: 300;
+    cursor: pointer;
+   text-decoration: none;
+    color: white;
+}
+footer div a:hover{
+ 
+   text-decoration: underline;
+    
+}
+footer div{
+    padding: 5px;
+}
+
+footer p{
+    margin: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+main{
+    font-family: Work Sans;
+}
+.intro{
+    background: rgb(64,78,237);
+    background: linear-gradient(186deg, rgba(64,78,237,1) 37%, rgba(88,101,242,1) 79%);
+ background-size: 1600px;
+    display:grid;
+   text-align: center;
+   color: white;
+   position: relative;
+   
+}
+
+.intro h1{
+    font-family: Silkscreen;
+    font-size: 60px;
+    max-width: 400px;
+
+    margin: auto;
+    margin-top: 0.4em;
+    margin-bottom: 0.7em;
+    z-index: 1;
+}
+
+
+.intro a{
+    font-family: Work Sans;
+  
+    text-decoration: none;
+  
+    margin: auto;
+    font-size:20px;
+    padding: 15px;
+    width: 180px;
+    margin-top:10px;
+    border-radius: 50px;
+    background: #23272a;
+    margin-bottom: 50px;
+    z-index: 1;
+    color: white;
+    font-weight: 500;
+    transition: transform 300ms ease-in-out 0ms;
+}
+.intro a:hover{
+    background-color: #2c2f33ec;
+    cursor: pointer;
+    box-shadow: 0px 1px 10px #23272a;
+     transform: translateY(-5px);
+}
+.about{
+   background-color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 710px;
+
+    
+}
+.about-container{
+   
+    z-index: 1;
+    
+    max-width: 80%;
+    margin:auto;
+   padding: 30px;
+  
+   color: #23272A;
+  
+}
+.about h2{
+ 
+  
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 50px;
+  padding-bottom: 0.3em;
+
+
+
+    
+}
+.about p{
+   font-weight: 300;
+   font-size: 22px;
+   line-height: 40px;
+   padding: 20px;
+
+}
+
+.education
+{
+    background-color: #F6F6F6;
+    
+    position: relative;
+    min-height: 710px;
+    color:#23272A;
+    
+}
+.edu-container
+{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    color:#23272A;
+}
+.edu-container h2{
+  padding-top: 2em;
+    padding-bottom: 0.3em;
+    font-weight: 900;
+    font-size: 50px;
+}
+.edu-container p{
+    
+    font-size: 18px;
+    font-weight: 400;
+    color: #99AAB5;
+}
+
+.edu-container h3{
+    margin-top: 80px;
+    font-size: 22px;
+    padding: 10px;
+}
+.edu-container h4{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.reflect{
+    background-color: #ffffff;
+    min-height: 710px;
+}
+.reflect-container
+{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+.reflect h2{
+    padding-top: 2em;
+   padding-bottom: 0.3em;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.reflect p
+{
+    padding:20px;
+    text-align: left;
+  
+
+    font-weight: 300;
+   font-size: 22px;
+   line-height: 40px;
+   
+}
+main hr{
+    color: #23272a;
+
+}

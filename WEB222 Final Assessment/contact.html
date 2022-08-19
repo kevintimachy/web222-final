@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="navbar">
+                    <a class="logo" href="./index.html"><h1>KEVIN<span>TIMACHY</span></h1></a>
+                <nav>
+                <ul class="navigation">
+                    <a href="./index.html"><li>Home</li></a>
+                    <a href="./resume.html"><li>Resume</li></a>
+                    <a href="./contact.html"><li>Contact Me</li></a>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="contact-header">Get In Contact With Me</h2>
+        <div class="form-container">
+            <form id="form" action="https://formspree.io/f/mwkzkqbk"
+            method="POST">
+           
+                
+                    <label class="label-title" for="name">Name</label>
+                    <input type="text" required>
+               
+              
+                    <label class="label-title"  for="email">Email</label>
+                    <input type="text" id="email" required>
+                   
+
+                    <label class="label-title" for="address">Address</label>
+                    <input type="text" required>
+             
+                
+                    <label class="label-title" for="city">City</label>
+                    <input type="text" required>
+               
+                    <label class="label-title" for="postal-code">Postal Code</label>
+                    <input type="text" 
+                    placeholder="A9A 9A9"
+                    pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$"
+                    required>
+                
+                    <p>Select:</p>
+                    <p>What is this About?</p>
+               
+                        <input id="radio1" type="radio" checked name="radio" onclick="option(0)">
+                        <label for="question">Question</label>
+                   
+                        <input id="radio2" type="radio" name="radio" onclick="option(0)">
+                        <label for="comment">Comment</label>
+                    
+                        <input id="radio3" type="radio" name="radio" onclick="option(1)">
+                        <label for="hiring">Hiring</label>
+                    
+                
+                    <label class="label-title" for="text-box">Message</label>
+                    <textarea name="text-box" id="text-box"  rows="5"></textarea>
+               
+                <div id="rate-container" class="form-col" style="display: none;">
+                    <label class="label-title" for="hourly-rate">Hourly Rate</label>
+                    
+                    <input type="number">
+                  
+                </div>
+                    <p></p>
+                    <input class="btn-submit" type="submit">
+                    
+                
+            </div>
+            </form>
+        </div>
+       
+    </main>
+    <footer>
+        <div class="footer-container">
+            <h3>Follow Me</h3>
+            <a href="https://github.com/kevintimachy"><img src="./media/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/kevin-timachy-960996225/" target=”_blank”><img src="./media/linkedin.png" alt=""></a>
+            <a href="https://www.instagram.com/veen.o/" target=”_blank”><img src="./media/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/kev.timachy/" target=”_blank”><img src="./media/facebook.png" alt=""></a>
+            <div>
+            <a href="./honesty.html">Honesty Policy</a>
+            </div>
+            <p>Kevin Timachy &#169; 2022</p>
+        </div>
+    </footer>
+  
+  <script src="js/contact.js"></script>
+</body>
+</html>
